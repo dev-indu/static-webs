@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg,17%,70%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    background-color: hsl(346deg,17%,70%);
+    
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color:rgb(245, 230, 235) ;
+    background-image: url(https://c1.wallpaperflare.com/preview/740/242/501/person-portrait-eye-looking-away.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* #overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 4%, 5%, 0.102) ; 
+} */
+#part3{
+    height: 100%;
+    width: 7%;
+    background-color: hsl(346deg,17%,70%);
+}
+#text-div{
+    /* height: 300px; */
+    position:absolute;
+    width: 400px;
+    /* background-color: brown; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 75px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#small-img-div {
+    height:350px;
+    width: 250px;
+    /* background-color: brown; */
+    background-image: url(https://c1.wallpaperflare.com/preview/424/514/356/woman-female-portrait-mist.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#overlay-in {
+    height: 10%;
+    width: 10%;
+    /* background-color: hsla(0, 4%, 5%, 0.102) ;  */
+}
+#vertical-text {
+position: absolute;
+transform: rotate(90deg);
+right: -32%;
+top: 4%;
+transform-origin: 0% 0%;
+/* width:100% ; */
+/* background-color: chartreuse; */
+}
+#vertical-text{
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: transparent;
+    latter-spacing:15px;
+    transform: rotate(90deg);
+    /* transform-origin: 0%,0%; */
+    font-family: monument;
+    -webkit-text-stroke-width:2px ;
+    -webkit-text-stroke-color:#fff ;
+}
+#nav{
+    position: absolute;
+    /* background-color: rgb(42, 165, 83); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 6%;
+    top: 5%;
+
+    
+
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 15px;
+    font-family: gilroy;
+    color:#fff
+}
